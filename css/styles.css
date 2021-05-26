@@ -1,0 +1,176 @@
+body{
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* nav bar */
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download-button */
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+  top: -15%;
+}
+
+/* features */
+#features{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box{
+  padding: 5%;
+  text-align: center;
+}
+
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-img{
+  border-radius: 50%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* cta */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+.last-button{
+  margin: 3% 1% 2%;
+}
+.cta-h3{
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* @media query  */
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* footer */
+#footer{
+  padding: 7% 15%;
+  text-align:center;
+
+}
+.Copyright{
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+.icon-social{
+  margin: 0.5rem 0.5rem 1rem;
+}
+.icon-social:hover{
+  color: #ff4c68;
+}
+.social:hover{
+  color: #ff4c68;
+}
